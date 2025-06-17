@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt – Schalke 04 Fanclub Österreich</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Vereinslogo" class="logo">
+        <h1>Schalke 04 Fanclub Österreich</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="ueber-uns.html">Über uns</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Kontakt</h2>
+            <form class="kontaktformular" method="post" action="mailto:deine-email@domain.at">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-Mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="nachricht">Nachricht</label>
+                <textarea id="nachricht" name="nachricht" required></textarea>
+
+                <button type="submit">Absenden</button>
+            </form>
+            <p>Alternativ: Schreibe uns direkt an <a href="mailto:deine-email@domain.at">deine-email@domain.at</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Schalke 04 Fanclub Österreich – Blau-Weiß verbindet</p>
+    </footer>
+</body>
+</html>
